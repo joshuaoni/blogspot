@@ -9,8 +9,15 @@ const Ninja = () => {
         console.log(text)
     }
 
-    //state is a used when we need a reactive parameter - a parameter that changes and
-    //React updates the changes
+    // the useEffect hook runs a fxn after every render of a component. The component re-renders
+    // anytime the state changes
+    // Usually, useEffect hooks are used for fetching data, communicating w/ an authentication
+    // service (these are called side effects)
+
+    // props are a way to pass data from a parent component to a child component
+
+    // state is a used when we need a reactive parameter - a parameter that changes and
+    // React can update the changes as they occur by 'setting the state' 
 
     return ( 
         <>

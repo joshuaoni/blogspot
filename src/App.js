@@ -4,6 +4,7 @@ import Home from './Home';
 import {Routes, Route, BrowserRouter, Link} from 'react-router-dom'
 import Blogs from './Blogs';
 import About from './About';
+import WriteUp from './WriteUp';
 
 
 function App() {
@@ -20,7 +21,10 @@ function App() {
         <div className="App">
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/blogs' element={<Blogs />} />
+            <Route path='/blogs' element={<Blogs title='Blogs :'/>} />
+            {/* props can be a dynamic value within {} or a string like 
+            'title' as is the case above, etc. */}
+            <Route path='/blogs/:i' element={<WriteUp />} />
             <Route path='/about' element={<About />} />
           </Routes>
         </div>
