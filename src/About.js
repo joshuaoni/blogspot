@@ -1,4 +1,5 @@
 import React from 'react';
+import 'tachyons';
 
 const About = () => {
     return (
@@ -10,10 +11,10 @@ const About = () => {
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
-            <div className='grid'>
-                <img alt='img' src='https://via.placeholder.com/270x250' />
-                <img alt='img' src='https://via.placeholder.com/270x250' />
-                <img alt='img' src='https://via.placeholder.com/270x250' />
+            <div className='mb4'>
+                <span className='fl w-third'><img style={{paddingRight: '20px'}}  alt='img' src='https://via.placeholder.com/400x340' /></span>
+                <span className='fl w-third'><img style={{padding: '0px 10px'}}  alt='img' src='https://via.placeholder.com/400x340' /></span>
+                <span className='fl w-third'><img style={{paddingLeft: '20px'}}  alt='img' src='https://via.placeholder.com/400x340' /></span>
             </div>
             <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

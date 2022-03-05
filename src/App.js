@@ -5,6 +5,8 @@ import {Routes, Route, BrowserRouter, Link} from 'react-router-dom'
 import Blogs from './Blogs';
 import About from './About';
 import WriteUp from './WriteUp';
+import Create from './Create';
+import NotFound from './NotFound';
 
 
 function App() {
@@ -24,8 +26,10 @@ function App() {
             <Route path='/blogs' element={<Blogs title='Blogs :'/>} />
             {/* props can be a dynamic value within {} or a string like 
             'title' as is the case above, etc. */}
-            <Route path='/blogs/:i' element={<WriteUp />} />
+            <Route path='/blogs/create' element={<Create />} />
+            <Route path='/blogs/:id' element={<WriteUp />} />
             <Route path='/about' element={<About />} />
+            <Route path='*' element={<NotFound />} /> {/* this asterisk means it's for any other route added to the end-point that's not listed. This Route should be at the bottom otherwise it will match the other routes below it. */}
           </Routes>
         </div>
         

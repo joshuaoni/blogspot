@@ -1,12 +1,13 @@
 import React from 'react';
+import WriteUp from './WriteUp';
 
 const Ninja = () => {
 
     const passNoParameter = (event) => {
         console.log("no parameter passed", event)
     }
-    const passsParameter = (text) => {
-        console.log(text)
+    const passsParameter = (param) => {
+        console.log(param)
     }
 
     // the useEffect hook runs a fxn after every render of a component. The component re-renders
@@ -33,3 +34,6 @@ const Ninja = () => {
 }
  
 export default Ninja;
+
+
+

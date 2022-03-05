@@ -4,11 +4,13 @@
   margin: 0;
   font-family: "Quicksand";
   font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1.6;
   color: #333;
 }
 
 .App {
-  max-width: 75%;
+  max-width: 93%;
   margin: 40px auto;
   padding: 20px;
 }
@@ -26,6 +28,9 @@
 
 .links {
   margin-left: auto;
+}
+
+.links a {
   font-size: 1.5rem;
 }
 
@@ -67,10 +72,12 @@ a {
   font-size: 300%;
   font-weight: 700;
   color: rgb(64, 23, 70);
+  text-align: center;
 }
 
 .flex {
   display: flex;
+  
 }
 
 .padl {
@@ -101,4 +108,64 @@ a {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-template-rows: 1fr;
   margin: auto;
+}
+
+.create {
+  width: 70%;
+}
+
+.create label {
+  display: block;
+  text-align: start;
+  font-size: 1.3rem;
+}
+
+.create input.text, .create textarea {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 2px solid rgb(224, 224, 224);
+  box-sizing: border-box;
+}
+
+.create select {
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 2px solid rgb(224, 224, 224);
+  box-sizing: border-box;
+}
+
+.create select {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+.create input.text:hover, .create textarea:hover {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+
+input.radio {
+  margin-left: auto;
+}
+
+.container {
+  width: 5.5rem;
+  font-size: 5rem;
+}
+
+.submit {
+  width: 10rem;
+}
+
+textarea {
+  height: auto;
+  resize: none;
+}
+
+.not-found {
+  text-align: center;
+}
+
+.not-found .f4 {
+  color: rgb(158, 73, 147);
+  text-decoration: underline;
 }
