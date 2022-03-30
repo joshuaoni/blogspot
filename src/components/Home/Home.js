@@ -15,7 +15,7 @@ const Home = ({user}) => {
                     <FontAwesomeIcon className='' icon={faPencil} size="2-1x" /><div className='space'></div><h1 id='heading' style={{display: 'inline'}} className='ma0'> BloggingFun</h1>
                 </div>
                 <br></br>
-                <div className='flex justify-center'><img alt='' className='mb4 mt4 fl w-100' src={jean}/></div>
+                <div className='flex w-100 mb4 mt4 justify-center'><img alt='' className='' src={jean}/></div>
                 <h1>The need for self-expression is an important part of our lives. When we don't 
                 express ourselves, we repress important parts of who we are and cause ourselves 
                 considerable struggle and lasting mental and emotional pain. Our frustration turns to 

@@ -15,6 +15,15 @@ const Create = ({user}) => {
             isPending: state.setPendingState.isPending
         }
     }, shallowEqual)
+
+    const onTitleChange = (e) => {
+        dispatch(setTitle(e.target.value))
+        if (e.target.value.length > 40) {
+            document.getElementById('title-format').style.display = 'block';
+        } else {
+            document.getElementById('title-format').style.display = 'none';
+        } 
+    }
     
     const onBodyChange = (e) => {
         dispatch(setBody(e.target.value))
@@ -77,10 +86,12 @@ const Create = ({user}) => {
                             className='text' 
                             type='text' 
                             required
+                            pattern='{40}'
                             value={title}
-                            onChange={(event)=>dispatch(setTitle(event.target.value))}
+                            onChange={onTitleChange}
                             onFocus={removeError}
                         />
+                    <div style={{display: 'none'}} className='f5 red db fw7' id='title-format'>Blog title cannot exceed 40 characters</div>
                     <label>Body of blog :</label>
                         <textarea
                             rows='10'
