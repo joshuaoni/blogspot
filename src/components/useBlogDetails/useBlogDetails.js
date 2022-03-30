@@ -16,7 +16,7 @@ const BlogDetails = (url) => {
 
     function deleteBlog (blog) {
         const {id} = blog
-        fetch('http://localhost:3003/delete/' + id, {
+        fetch('https://agile-beyond-78411.herokuapp.com/delete/' + id, {
             method: 'DELETE'
         })
         .then(resp => resp.json())
@@ -32,7 +32,7 @@ const BlogDetails = (url) => {
     }
 
     function deleteBlogWithin (id) {
-        fetch('http://localhost:3003/delete/' + id, {
+        fetch('https://agile-beyond-78411.herokuapp.com/delete/' + id, {
             method: 'DELETE'
         })
         .then(resp => resp.json())

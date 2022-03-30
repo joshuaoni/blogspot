@@ -31,7 +31,7 @@ const Create = ({user}) => {
 
         dispatch(setPendingState(true));
 
-        fetch('http://localhost:3003/create', {
+        fetch('https://agile-beyond-78411.herokuapp.com/create', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(newBlog)

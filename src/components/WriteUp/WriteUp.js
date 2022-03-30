@@ -13,7 +13,7 @@ const WriteUp = ({user}) => {
     const {id} = useParams();
     const i = Number(id)
 
-    const { deleteBlogWithin } = useBlogDetails('http://localhost:3003/blogs/'); 
+    const { deleteBlogWithin } = useBlogDetails('https://agile-beyond-78411.herokuapp.com/blogs/'); 
 
     let {blogs, isPending, error, searchingFor} = useSelector(state => {
         return {
@@ -30,7 +30,7 @@ const WriteUp = ({user}) => {
 
     useEffect(()=>{
         const newAbortController = new AbortController();
-        dispatch(requestBlogs('http://localhost:3003/blogs/', newAbortController));
+        dispatch(requestBlogs('https://agile-beyond-78411.herokuapp.com/blogs/', newAbortController));
         return () => newAbortController.abort()
     }, [])
     

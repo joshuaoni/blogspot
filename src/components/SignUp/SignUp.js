@@ -73,7 +73,7 @@ const SignUp = () => {
         dispatch(setPendingState(true))
         const userDetails = {name:signUpName, email:signInEmail, password:signInPassword, confirmPassword }
         
-        fetch('http://localhost:3003/signup', {
+        fetch('https://agile-beyond-78411.herokuapp.com/signup', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(userDetails)
@@ -108,7 +108,7 @@ const SignUp = () => {
                     >
                         <fieldset id="sign_up" className=" b--transparent ph0 mh0">
                             <div className='pointer justify-center align-c'>
-                                <FontAwesomeIcon className='' icon={faPencil} size="2x" /><div className='space'></div><h1 style={{display: 'inline'}} className='fw7 f2 ma0'> BlogsAreFun</h1>
+                                <FontAwesomeIcon className='' icon={faPencil} size="2x" /><div className='space'></div><h1 style={{display: 'inline'}} className='fw7 f2 ma0'> BloggingFun</h1>
                             </div>
                             <div className="mt3">
                                 <input 
@@ -179,7 +179,7 @@ const SignUp = () => {
                             {wrongDetails}
                         </div>
                         {isPending ? <div className='tc'>
-                            <span className='f4 white b'>Loading...</span>
+                            <span className='f4 black fw7 b'>Loading...</span>
                         </div> :
                         <div>
                             <button className="b  w-100 sign-in-btn mt3 input-reset ba b--light-green bg-black pointer f6 dib">Register</button>

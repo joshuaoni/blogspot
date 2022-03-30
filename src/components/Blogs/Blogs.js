@@ -21,7 +21,7 @@ const Blogs = ({title, user}) => {
         }
     }
 
-    const { deleteBlog } = useBlogDetails('http://localhost:3003/blogs/');  
+    const { deleteBlog } = useBlogDetails('https://agile-beyond-78411.herokuapp.com/blogs/');  
     
     let {blogs, isPending, error, searchingFor} = useSelector(state => {
         return {

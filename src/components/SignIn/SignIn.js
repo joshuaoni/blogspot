@@ -33,7 +33,7 @@ const SignIn = ({setUserData}) => {
 
         const userDetails = {email: signInEmail, password: signInPassword}
 
-        fetch('http://localhost:3003/signin', {
+        fetch('https://agile-beyond-78411.herokuapp.com/signin', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(userDetails)
@@ -68,7 +68,7 @@ const SignIn = ({setUserData}) => {
                     >
                         <fieldset id="sign_up" className="b--transparent ph0 mh0">
                             <div className='pointer justify-center align-c'>
-                                <FontAwesomeIcon className='' icon={faPencil} size="2x" /><div className='space'></div><h1 style={{display: 'inline'}} className='fw7 f2 ma0'> BlogsAreFun</h1>
+                                <FontAwesomeIcon className='' icon={faPencil} size="2x" /><div className='space'></div><h1 style={{display: 'inline'}} className='fw7 f2 ma0'> BloggingFun</h1>
                             </div>
                             <div className="mt3">
                                 <input 
@@ -108,7 +108,7 @@ const SignIn = ({setUserData}) => {
                             {wrongDetails}
                         </div>
                         {isPending ? <div className='tc'>
-                            <span className='f4 white b'>Loading...</span>
+                            <span className='f4 black fw7 b'>Loading...</span>
                         </div> :
                         <div>
                             <button 

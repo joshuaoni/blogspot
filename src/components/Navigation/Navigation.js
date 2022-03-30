@@ -13,7 +13,7 @@ const Navigation = ({reset, user}) => {
         <div className='nav-wrap'>
             <nav>
                 <div className='pointer justify-center align-c pl4'>
-                    <FontAwesomeIcon className='' icon={faPencil} size="1-5x" /><div className='space'></div><h1 style={{display: 'inline'}} className='ma0'> BlogsAreFun</h1>
+                    <FontAwesomeIcon className='' icon={faPencil} size="1-5x" /><div className='space'></div><h1 style={{display: 'inline'}} className='ma0'> BloggingFun</h1>
                 </div>
                 <div className='links'>
                     <Link to='/'>Home</Link>

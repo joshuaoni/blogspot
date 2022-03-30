@@ -12,7 +12,7 @@ const Home = ({user}) => {
         <div className=''>
             <div className='App center pb5'>
                 <div className='justify-center align-c pt4'>
-                    <FontAwesomeIcon className='' icon={faPencil} size="2-1x" /><div className='space'></div><h1 id='heading' style={{display: 'inline'}} className='ma0'> BlogsAreFun</h1>
+                    <FontAwesomeIcon className='' icon={faPencil} size="2-1x" /><div className='space'></div><h1 id='heading' style={{display: 'inline'}} className='ma0'> BloggingFun</h1>
                 </div>
                 <br></br>
                 <div className='flex justify-center'><img alt='' className='mb4 mt4 fl w-100' src={jean}/></div>
@@ -29,7 +29,7 @@ const Home = ({user}) => {
                 and what you’re experiencing. Writing down and performing your thoughts can serve to 
                 transform the intangibility of your emotions and experiences into something more.</h1>
                 <div className='flex justify-center'><div className='w-50'><img alt='' src={white}/></div><div className='w-50'><img alt='' src={black}/></div></div>
-                <h1 className='ma0'>Here at BlogsAreFun, we offer you a creative platform for 
+                <h1 className='ma0'>Here at BloggingFun, we offer you a creative platform for 
                 you to express yourself, or express your opinions on any topic you choose to by 
                 penning down your thoughts in a blog post. You might want to share your personal take on an 
                 ongoing societal issue, or an educational or tech related write-up. It could even be poetry!
