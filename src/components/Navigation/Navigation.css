@@ -80,7 +80,7 @@ nav .ma0 {
         display:grid;
         place-items:center;
         margin:0;
-        padding-right: 1.3rem;
+        padding-right: 2.5rem;
         height: 100%;
     }
     nav {
@@ -146,7 +146,7 @@ nav .ma0 {
     display: flex;
     flex-direction: column;
     background: black;
-    padding: 0 1rem;
+    padding: 0 2.5rem;
     text-align: end;
 }
   
