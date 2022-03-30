@@ -12,7 +12,7 @@ const About = () => {
                 <h1 id='heading' className='mt0 pt4'>About this web app :</h1>
                 <h1>This site was created to give users a platform to express themselves, or share their write-ups
                 with the world, no matter what topic they are based on. You just have to create an account 
-                first, or log in if you aoready have one. Navigate to the blogs page by clicking 'Blogs' 
+                first, or log in if you already have one. Navigate to the blogs page by clicking 'Blogs' 
                 on the navigation bar above, and then scroll to the bottom to create your very first blog!
                 </h1>
                 <div className=''>
