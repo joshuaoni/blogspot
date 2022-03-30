@@ -1,0 +1,107 @@
+.fullPage article {
+    border-color: rgba(0,0,0,0.5);
+    box-shadow: 0 0 0px 1px rgba(0,0,0,0.2);
+    background: white;
+}
+
+.fullPage {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    color: black;
+    background: url(../../images/yellow.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.sign-up-button {
+    background: white;
+    color: black;
+    font-weight: 1000;
+    text-decoration: none;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
+.sign-up-button:hover {
+    color: white;
+    background-color: black;
+}
+
+::-webkit-input-placeholder {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.sign-in-btn {
+    padding: 0.7rem;
+    color: white;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
+.sign-in-btn:hover {
+    color: rgb(255, 238, 0);
+}
+
+.pre-logo {
+    margin: 0px;
+    color: black;
+}
+
+ 
+.auto-fill:-webkit-autofill,
+.auto-fill:-webkit-autofill:hover, 
+.auto-fill:-webkit-autofill:focus, 
+.auto-fill:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    box-shadow: 0 0 0 30px white inset;
+}
+
+div:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icon-div {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -23px;
+}
+
+.icon {
+    color: black;
+}
+
+.w-50-m {
+    width: 35%
+}
+
+article input {
+    border: 0.1px solid rgba(0,0,0,0.3);
+}
+
+
+@media screen and (min-width: 64.1em) and (max-width: 75em) {
+    .w-50-m {
+        width: 45%;
+    }
+}
+@media screen and (min-width: 45em) and (max-width: 64.1em) {
+    .w-50-m {
+        width: 55%;
+    }
+}
+@media screen and (min-width: 30em) and (max-width: 45em) {
+    .w-50-m {
+        width: 65%;
+    }
+}
+
+
+@media screen and (max-width: 30em) {
+    .w-rr {
+        width: 85%;
+    }
+}
+

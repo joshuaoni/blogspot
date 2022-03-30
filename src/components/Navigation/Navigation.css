@@ -1,0 +1,164 @@
+nav {
+    display: flex;
+    padding: 5px 0;
+    border-bottom: 1px solid black;
+    background: black;
+}
+
+.nav-wrap {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+  
+.links {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    font-size: 1.5rem;
+}
+  
+a {
+    padding: 0 1rem;
+    text-decoration: none;
+}
+
+.space {
+    width: 0.5rem;
+}
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+}
+    
+nav .mt0 {
+    font-size: 200%;
+}
+  
+.links a:hover {
+    color: rgb(134, 225, 255);
+}
+
+.fa-1-5x {
+    font-size: 1.5em;
+    color: #86e1ff;
+}
+
+nav .ma0 {
+  background: linear-gradient(.25turn, #86e1ff, 30%, white );
+  background-clip: text;
+  color: transparent;
+  font-weight: 1000;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 45.5em) {
+    .fa-1-5x {
+        font-size: 1.5em;
+        color: #86e1ff;
+    }
+    nav .pl4 {
+        padding-left: 1rem;
+    }
+    a {
+        padding:  0 0.5rem;
+    }
+    nav .ma0 {
+        font-size: 1.7rem;
+    }
+    .links {
+        display: none;
+    }
+    .hamburger {
+        display:grid;
+        place-items:center;
+        margin:0;
+        padding-right: 1.3rem;
+        height: 100%;
+    }
+    nav {
+        padding-bottom: 9px;
+        padding-top: 9px;
+        justify-content: space-between;
+    }
+}
+  
+.hamburger label{
+    display:flex;
+    flex-direction:column;
+    width:30px;
+    cursor:pointer;
+}
+  
+.hamburger label span{
+    background: #fff;
+    border-radius:10px;
+    height:3px;
+    margin: 3px 0;
+    transition: .4s  cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+  
+.hamburger span:nth-of-type(1){
+    width:100%;
+}
+  
+.hamburger span:nth-of-type(2){
+    width:100%;
+}
+  
+.hamburger span:nth-of-type(3){
+    width:100%;
+}
+  
+.hamburger input[type="checkbox"]{
+    display:none;
+}
+  
+.hamburger input[type="checkbox"]:checked ~ span:nth-of-type(1){
+    transform-origin:bottom;
+    transform:rotatez(45deg) translate(3px,1px);
+    width: 50%;
+}
+  
+.hamburger input[type="checkbox"]:checked ~ span:nth-of-type(2){
+    transform-origin:top;
+    transform:rotatez(-45deg)
+}
+  
+.hamburger input[type="checkbox"]:checked ~ span:nth-of-type(3){
+    transform-origin:bottom;
+    width:50%;
+    transform: translate(13px,-4px) rotatez(45deg); 
+}
+  
+.div {
+    display: none;
+}
+  
+.show {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    padding: 0 1rem;
+    text-align: end;
+}
+  
+.nav a {
+      padding: 0.7rem 0;
+      font-size: 1.2rem;
+}
+
+.nav a:hover {
+    color: rgb(134, 225, 255);
+}
+
+.nav { 
+    border-bottom: 1px solid rgb(134, 225, 255);;
+}

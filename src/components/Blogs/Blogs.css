@@ -1,0 +1,55 @@
+.blogText {
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 1rem;
+}
+  
+.blog-cont {
+    max-width: 93%;
+    margin: 10px auto;
+    padding: 0 2vw;
+}
+  
+.blog-top {
+    max-width: 93%;
+    margin: 0 auto;
+    padding: 0 2vw;
+}
+  
+.blogText:hover {
+    box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+    transform: scale(1.03);
+    transition: all 0.2s ease-in-out;
+}
+  
+.blogText h1 {
+    padding: 5px;
+}
+  
+.blogText h1 span {
+    font-size: 120%;
+    color: rgb(4, 151, 201);
+}
+
+.dropDown {
+    display: flex;
+    flex-direction: column;
+}
+
+.scroll-down {
+  font-size: 1.7rem;
+}
+
+#img {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 45.5em) {
+    .blog-cont {
+        max-width: 93%;
+        margin: 3px auto;
+        padding: 0 2vw;
+    }
+}

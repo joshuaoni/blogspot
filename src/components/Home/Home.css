@@ -1,0 +1,12 @@
+.fa-2-1x {
+    font-size: 2em;
+}
+
+@media screen and (max-width: 45.5em) {
+    .fa-2-1x {
+        font-size: 1.7em;
+    }
+    #heading {
+        font-size: 255%;
+    }
+}

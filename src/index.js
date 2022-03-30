@@ -4,10 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware, combineReducers } from 'redux';
+import { requestBlogs, setTitle, setResult, setBody, setConfirmPassword, setSignUpName, setPendingState, setSearchingFor, setSignInEmail, setSignInPassword, setWrongDetails } from './Redux/Reducers';
+// import { createLogger } from 'redux-logger';
+import thunkMiddleware from 'redux-thunk';
+
+// const logger = createLogger()
+const rootReducer = combineReducers({setConfirmPassword, setSignUpName, setBody, setResult, setSearchingFor, setTitle, requestBlogs, setPendingState, setSignInEmail, setSignInPassword, setWrongDetails})
+const store = createStore(rootReducer, applyMiddleware(thunkMiddleware));    
+// const store = createStore(rootReducer, applyMiddleware(thunkMiddleware, logger));
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider store={store}> 
+    <App/>
+  </Provider>,
   document.getElementById('root')
 );
 

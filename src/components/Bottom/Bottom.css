@@ -1,0 +1,102 @@
+.footer {
+    background: black;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    display: flex;
+    line-height: 1.6;
+}
+
+.copyright {
+    display: flex;
+    align-items: flex-end;
+}
+
+.platforms {
+    text-align: end;
+}
+
+.platforms-e {
+    border-right: solid 1px rgba(255,255,255,0.5);
+    padding-bottom: 0;
+}
+
+.designed {
+    padding-bottom: 1.6rem;
+}
+
+.git-link {
+    padding-right: 0.9rem;
+}
+
+.envelope {
+    margin-left: auto;
+}
+
+.empty {
+    height: 50%;
+}
+
+.envelope-e {
+    height: 50%;
+}
+
+.instructions {
+    display: flex;
+    align-items: center;
+}
+
+.email-m {
+    font-size: 170%;
+}
+
+
+@media screen and (max-width: 45.5em) {
+    .footer {
+        display: block;
+    }
+    .platforms-e {
+        border-right: none;
+        border-bottom: 1px solid rgba(255,255,255,0.5);
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        padding-bottom: 0.7rem;
+    }
+    .w-50 {
+        width: 97%;
+    }
+    .platforms {
+        text-align: center;
+    }
+    .justify-end {
+        justify-content: center;
+    }
+    .git-link {
+        padding: 0;
+    }
+    .empty {
+        display: none;
+    }
+    .envelope-e {
+        height: 100%;
+        justify-content: center;
+    }
+    .envelope {
+        margin-left: 0;
+    }
+    .designed {
+        padding: 0.5rem 0;
+    }
+    .platforms-e + .pl2 .instructions {
+        justify-content: center;
+    }
+    .copyright {
+        justify-content: center;
+    }
+    .footer .pr3 {
+        padding-right: 0px;
+    }
+    .email-m {
+        font-size: 210%;
+        padding-top: 2px;
+    }
+}
