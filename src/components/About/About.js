@@ -16,7 +16,7 @@ const About = () => {
                 on the navigation bar above, and then scroll to the bottom to create your very first blog!
                 </h1>
                 <div className=''>
-                    <div className='pb3 flex justify-center'><img alt='' style={{width: '40vw'}} src={races} /></div>
+                    <div className='pb3'><img alt='' style={{paddingLeft: '25%', paddingRight: '25%'}} width='50%' height='auto' src={races} /></div>
                     <div className='flex'>
                         <div className='flex' style={{alignItems: 'center', width: '42%', paddingLeft: '3%'}}><img alt='img' src={lappy} /></div>
                         <div style={{width: '55%'}}><img alt='img' src={mw} /></div>

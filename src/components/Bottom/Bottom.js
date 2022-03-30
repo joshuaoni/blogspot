@@ -30,6 +30,7 @@ const Bottom = () => {
                         <div className='empty'></div>
                         <div className='envelope-e flex'>
                             <div title='Email' className="white envelope social">
+                                <div style={{height: '10%'}}></div>
                                 <FontAwesomeIcon className='white' icon={faEnvelope} size="2x" />
                             </div>
                             <h2 className='email-m ma0 pl2'>joshuadavidoni@yahoo.com</h2>
