@@ -16,7 +16,7 @@ const Bottom = () => {
                     <div style={{height: '50%'}} className=''>
                         <h3 className='ma0 white platforms f3'>Platforms</h3>
                         <div className='flex justify-end git-link'>
-                            <a title='Github source code' href="https://github.com/joshuaoni/facedetection"
+                            <a title='Github source code' href="https://github.com/joshuaoni/blogspot"
                                 className="social">
                                 <FontAwesomeIcon className='white' icon={faGithub} size="2x" />
                             </a>
