@@ -33,7 +33,7 @@ const Home = ({user}) => {
                 you to express yourself, or express your opinions on any topic you choose to by 
                 penning down your thoughts in a blog post. You might want to share your personal take on an 
                 ongoing societal issue, or an educational or tech related write-up. It could even be poetry!
-                We offer you complete creative freedom. You can also read up other users' blogs and get inspired by their work. 
+                We offer you complete creative freedom. Note that you can delete any of your blog posts whenever you feel like doing so. You can also read up other users' blogs and get inspired by their work. 
                 Can't wait to get started? Use the navigation bar at the top to navigate to the blogs section!</h1>
             </div>
         </div>

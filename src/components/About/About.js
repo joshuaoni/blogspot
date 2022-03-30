@@ -23,7 +23,8 @@ const About = () => {
                     </div>
                 </div>
                 <h1 className='ma0'>All you need is your laptop or your mobile phone. What are you waiting 
-                for? Start creating blogs and share your work with your friends :) <br/><br />You can contact the developer of 
+                for? Start creating blogs and share your work with your friends :) Important to note that profanity 
+                or any other sort of distasteful content is not allowed and will be removed by the admin immediately. <br/><br />You can contact the developer of 
                 this web app below.</h1>
             </div>
         </div>
