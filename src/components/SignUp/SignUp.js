@@ -155,7 +155,7 @@ const SignUp = () => {
                                 </div>
                             </div>
                             
-                            <div style={{display: 'none'}} className='f5 red db fw7' id='password-format'>Password must contain an upper-case letter, a lower-case letter, a number and must be betwen 6-14 characters long</div>
+                            <div style={{display: 'none'}} className='f5 red db fw7' id='password-format'>Password must contain an upper-case letter, a lower-case letter, a number and must be between 6-14 characters long</div>
                             <div className="mt3 pt3">
                                 <input 
                                     className=" pa2 input-reset bg-transparent fw5 f4 w-100" 
