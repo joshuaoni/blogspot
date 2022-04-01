@@ -66,7 +66,7 @@ a {
 .icon-div {
     display: flex;
     justify-content: flex-end;
-    margin-top: -23px;
+    margin-top: -26px;
 }
 
 .icon {
@@ -79,6 +79,10 @@ a {
 
 article input {
     border: 0.1px solid rgba(0,0,0,0.3);
+}
+
+.fa-1-1 {
+    font-size: 1.3rem;
 }
 
 
