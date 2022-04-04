@@ -13,7 +13,7 @@ const Navigation = ({reset, user}) => {
         <div className='nav-wrap'>
             <nav>
                 <div className='pointer justify-center align-c pl4'>
-                    <FontAwesomeIcon className='' icon={faPencil} size="1-5x" /><div className='space'></div><h1 style={{display: 'inline'}} className='ma0'> BloggingFun</h1>
+                    <FontAwesomeIcon className='' icon={faPencil} size="lg" /><div className='space'></div><h1 style={{display: 'inline'}} className='ma0'> BloggingFun</h1>
                 </div>
                 <div className='links'>
                     <Link to='/'>Home</Link>
@@ -24,7 +24,7 @@ const Navigation = ({reset, user}) => {
                 </div>
                 <div className='ham'>
                     <div className='hamburger'>
-                        <label for="check">
+                        <label htmlFor="check">
                             <input 
                                 type="checkbox" 
                                 id="check"
@@ -40,7 +40,7 @@ const Navigation = ({reset, user}) => {
                     </div>
                 </div>
             </nav>
-                    <div class='nav div'>
+                    <div className='nav div'>
                         <Link to='/'>Home</Link>
                         <Link to='/blogs'>Blogs</Link>
                         <Link to='/about'>About</Link>

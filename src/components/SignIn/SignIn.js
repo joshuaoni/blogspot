@@ -100,7 +100,7 @@ const SignIn = ({setUserData}) => {
                                     }}
                                 />
                                 <div title='Reveal/hide password' className="icon-div">
-                                    <FontAwesomeIcon onClick={togglePassword} className='pointer mr3 icon' icon={faEyeSlash} size="1-1" />
+                                    <FontAwesomeIcon onClick={togglePassword} className='pointer mr3 icon' icon={faEyeSlash} size="4x" />
                                 </div>
                             </div>
                         </fieldset>

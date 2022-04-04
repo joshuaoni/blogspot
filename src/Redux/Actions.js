@@ -66,9 +66,9 @@ export const setBody = (text) => ({
     payload: text
 })
 
-export const requestBlogs = (url, newAbortController) => (dispatch) => {
+export const requestBlogs = (url) => (dispatch) => {
     dispatch({type: REQUEST_BLOGS_PENDING});
-    fetch(url, {signal: newAbortController.signal})     // set the url as the useEffect dependency so that it runs anytime the url you pass from the component using this custom hook changes.
+    fetch(url)     // set the url as the useEffect dependency so that it runs anytime the url you pass from the component using this custom hook changes.
     .then(response => {
         if (!response.ok) {
             throw Error ('Could not fetch');

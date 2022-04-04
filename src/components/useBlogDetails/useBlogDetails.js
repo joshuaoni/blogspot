@@ -9,9 +9,9 @@ const BlogDetails = (url) => {
     const navigate = useNavigate();
     
     useEffect(()=>{
-        const newAbortController = new AbortController();
-        dispatch(requestBlogs(url, newAbortController));
-        return () => newAbortController.abort()
+        // const newAbortController = new AbortController();
+        dispatch(requestBlogs(url));
+        return ;
     }, [url]);
 
     function deleteBlog (blog) {

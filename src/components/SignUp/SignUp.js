@@ -151,7 +151,7 @@ const SignUp = () => {
                                     onChange={onPasswordChange}
                                 />
                                 <div title='Reveal/hide password' className="icon-div">
-                                    <FontAwesomeIcon onClick={togglePassword1} className='pointer mr3 icon' icon={faEyeSlash} size="1-1" />
+                                    <FontAwesomeIcon onClick={togglePassword1} className='pointer mr3 icon' icon={faEyeSlash} size="4x" />
                                 </div>
                             </div>
                             
@@ -171,7 +171,7 @@ const SignUp = () => {
                                     }}
                                 />
                                 <div title='Reveal/hide password' className="icon-div">
-                                    <FontAwesomeIcon onClick={togglePassword2} className='pointer mr3 icon' icon={faEyeSlash} size="1-1" />
+                                    <FontAwesomeIcon onClick={togglePassword2} className='pointer mr3 icon' icon={faEyeSlash} size="4x" />
                                 </div>
                             </div>
                         </fieldset>

@@ -86,7 +86,7 @@ const Create = ({user}) => {
                             className='text' 
                             type='text' 
                             required
-                            pattern='{40}'
+                            pattern='^.{1,40}$'
                             value={title}
                             onChange={onTitleChange}
                             onFocus={removeError}
@@ -96,7 +96,7 @@ const Create = ({user}) => {
                         <textarea
                             rows='10'
                             required
-                            pattern='{2000}'
+                            pattern='^.{1,2000}$'
                             value={body}
                             onChange={onBodyChange}
                             onFocus={removeError}

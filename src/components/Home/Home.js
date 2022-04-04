@@ -12,7 +12,7 @@ const Home = ({user}) => {
         <div className=''>
             <div className='App center pb5'>
                 <div className='justify-center align-c pt4'>
-                    <FontAwesomeIcon className='' icon={faPencil} size="2-1x" /><div className='space'></div><h1 id='heading' style={{display: 'inline'}} className='ma0'> BloggingFun</h1>
+                    <FontAwesomeIcon className='' icon={faPencil} size="3x" /><div className='space'></div><h1 id='heading' style={{display: 'inline'}} className='ma0'> BloggingFun</h1>
                 </div>
                 <br></br>
                 <div className='w-100 mb4 mt4'><img alt='' width='100%' height='auto' className='' src={jean}/></div>

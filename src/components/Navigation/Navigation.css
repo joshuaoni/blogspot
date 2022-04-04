@@ -43,7 +43,7 @@ nav .mt0 {
     color: rgb(134, 225, 255);
 }
 
-.fa-1-5x {
+.fa-lg {
     font-size: 1.5em;
     color: #86e1ff;
 }
@@ -60,7 +60,7 @@ nav .ma0 {
 }
 
 @media screen and (max-width: 45.5em) {
-    .fa-1-5x {
+    .fa-lg {
         font-size: 1.5em;
         color: #86e1ff;
     }
