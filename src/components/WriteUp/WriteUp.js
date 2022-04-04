@@ -29,9 +29,9 @@ const WriteUp = ({user}) => {
 	})
 
     useEffect(()=>{
-        const newAbortController = new AbortController();
-        dispatch(requestBlogs('https://agile-beyond-78411.herokuapp.com/blogs/', newAbortController));
-        return () => newAbortController.abort()
+        // const newAbortController = new AbortController();
+        dispatch(requestBlogs('https://agile-beyond-78411.herokuapp.com/blogs/'));
+        return ;
     }, [])
     
      
